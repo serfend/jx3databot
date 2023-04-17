@@ -40,8 +40,8 @@ for i in plugins:
     if not os.path.exists("./src/plugins/" + i + "/info.json"):
         raise FileNotFoundError(
             f"Plugin `{i}` required a `info.json` but not found. Please check and try again.")
-    sys.exit(1)
-    
+        sys.exit(1)
+
 tools_path = os.path.dirname(__file__)
 nonebot.init(tools_path=os.path.join(tools_path, 'src\\tools'))
 app = nonebot.get_asgi()
