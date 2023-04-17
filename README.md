@@ -3,14 +3,22 @@
 # [Inkar Suki](https://www.inkar-suki.xyz)
 
 _基于Nonebot 2的多功能的 QQ 群聊机器人_
+<p align="center">
+    <a href="https://github.com/serfend/jx3databot/"><img alt="view count" src="https://visitor-badge.glitch.me/badge?page_id=serfend/jx3databot&left_text=views" /></a> 
+    <a href="https://github.com/serfend/jx3databot/releases"><img alt="GitHub release" src="https://img.shields.io/github/release/serfend/jx3databot.svg?style=flat-square" /></a>
+    <a href="https://github.com/serfend/jx3databot/releases"><img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/serfend/jx3databot/total.svg?style=flat-square&color=%2364ff82" /></a>
+    <a href="https://github.com/serfend/jx3databot/commits"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/serfend/jx3databot.svg?style=flat-square" /></a>
+    <a href="https://github.com/serfend/jx3databot/actions/workflows/primary.yml"><img alt="GitHub Workflow Status" src="https://github.com/serfend/jx3databot/actions/workflows/primary.yml/badge.svg" /></a>
+    <a href="#"><img alt="Nonebot2" src="https://img.shields.io/badge/Nonebot2-Release_v2.0.0_beta.5-brightgreen" /></a>
+    <a href="#"><img alt="go-cqhttp" src="https://img.shields.io/badge/go--cqhttp-v1.0.0_rc3-brightgreen" /></a>
+</p>
 
-![Nonebot2](https://img.shields.io/badge/Nonebot2-Release_v2.0.0_beta.5-brightgreen)
-![go-cqhttp](https://img.shields.io/badge/go--cqhttp-v1.0.0_rc3-brightgreen)
 <br>
-![GitHub](https://img.shields.io/github/license/codethink-cn/Inkar-Suki)
+
+![GitHub](https://img.shields.io/github/license/serfend/jx3databot)
 ![Python](https://img.shields.io/badge/Python-3.8+-blue)
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/codethink-cn/Inkar-Suki?include_prereleases)
-![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/codethink-cn/Inkar-Suki)
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/serfend/jx3databot?include_prereleases)
+![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/serfend/jx3databot)
 
 名字不完整来源：Inkar-usi@DIA
 
@@ -25,8 +33,6 @@ _基于Nonebot 2的多功能的 QQ 群聊机器人_
 **由于功能设计初衷是为群聊服务，以下大部分功能将在私聊不可用，食用方法请移步[文档](https://inkar-suki.codethink.cn)。**
 
 **2022年11月27日更新文档：已同步最新版本，迁移至[此](https://inkar-suki.codethink.cn)，原域名将在2023年4月-7月失效，不再跳转至现有域名。**
-
-~~u1s1，作者有点摆烂，不知道文档和GitHub哪个才是最新的（手动狗头）~~
 
 - [剑网3](https://jx3.xoyo.com)相关功能。
     - 以下功能数据来源为[JX3BOX](https://www.jx3box.com)。
@@ -88,14 +94,6 @@ _基于Nonebot 2的多功能的 QQ 群聊机器人_
         - [x] （未公开的/单接定制）查询某玩家是否在线。
 - [ChatGPT](https://chat.openai.com/auth/login?__cf_chl_rt_tk=bKFLWPvap3ckKEh5nAsc62BRL8.X_kDi.9gS1debZhE-1680362859-0-gaNycGzNDNA)。
     -[x] （未公开的）GPT-4对话，内测中。
-- [Arcaea（韵律源点）](https://arcaea.lowiro.com/zh)相关功能。
-    - 以下数据来源为[Arcaea Unlimited API]。
-        - [x] 获取用户信息以及最近游玩记录；
-        - [x] 获取用户单曲最佳成绩；
-        - [x] 绑定Arcaea用户。
-- [Minecraft（我的世界）](https://www.minecraft.net/zh-hans)相关功能。
-    - [x] 获取Minecraft服务器信息；
-    - [x] 获取Minecraft最新版本号。
 - 娱乐功能。
     - [x] 结婚（包含求婚、接受/拒绝、离婚）；
     - 以下数据来源于[QQ音乐](https://y.qq.com)和[网易云音乐](https://music.163.com)。
@@ -133,15 +131,12 @@ _基于Nonebot 2的多功能的 QQ 群聊机器人_
     - [x] 推送机器人代码至GitHub，或拉取GitHub代码至本地（非常推荐您fork主仓库并克隆自己的仓库，这样可以让此功能**正常工作**，直接克隆主仓库**仅可使用拉取**，若直接下载，则此功能**均不可使用**）。
 
 # 公共实例
-- 目前作者的公共实例位于香港，QQ号为`3438531564`，想要使用请发起[issue](https://github.com/codethink-cn/Inkar-Suki/issues)或联系作者QQ（`3349104868`）。
+- 目前作者的公共实例位于香港，QQ号为`3438531564`，想要使用请发起[issue](https://github.com/serfend/jx3databot/issues)或联系作者QQ（`3349104868`）。
 
 # 机器人交流群
-- 欢迎加入`Inkar-Suki用户群`，群号为[650495414](https://jq.qq.com/?_wv=1027&k=JazIPJxf)，您可以在这里与其他使用机器人的用户交流。
+- 欢迎加入`Inkar-Suki用户群`，群号为[650495414](https://jq.qq.com/?_wv=1027&k=JazIPJxf)，您可以在这里与其他使用机器人的用户交流。或测试群213335523
 
 感谢您使用`Inkar Suki`，幸甚有您！
-
-# 赞助
-欢迎[投喂](https://afdian.net/a/Inkar-Suki)。
 
 # 友情链接
 - [Nonebot 2](https://v2.nonebot.dev/) - 跨平台 Python 异步机器人框架；
