@@ -1,3 +1,4 @@
+accounts
 *.token
 cq-http/config.yml
 cq-http/device.json

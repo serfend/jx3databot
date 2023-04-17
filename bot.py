@@ -36,14 +36,12 @@ try:
 except FileExistsError:
     print("检测到`assets`文件夹已创建，已自动补全所有需要的文件夹。")
 plugins = os.listdir("./src/plugins")
-error = False
 for i in plugins:
-    if os.path.exists("./src/plugins/" + i + "/info.json") == False:
-        error = True
+    if not os.path.exists("./src/plugins/" + i + "/info.json"):
         raise FileNotFoundError(
             f"Plugin `{i}` required a `info.json` but not found. Please check and try again.")
-if error:
     sys.exit(1)
+    
 tools_path = os.path.dirname(__file__)
 nonebot.init(tools_path=os.path.join(tools_path, 'src\\tools'))
 app = nonebot.get_asgi()
